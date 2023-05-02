@@ -1,10 +1,3 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 public static class VacationPeriodExtensions
 {
     public static bool IsAnyIntersect(this VacationPeriod currentVacation, List<VacationPeriod> othersVacations) =>
